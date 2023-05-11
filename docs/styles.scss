@@ -17,24 +17,9 @@ h2, h3, h4, h5 {margin:0px;}
 /* ---- UI Style ----- */
 .item {
   background-color: rgba(255, 255, 255, 0.1);
-  width: 860px;
-  box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
+  width: 750px;
   animation: glow 2s ease-in-out infinite;
 }
-
-@keyframes glow {
-  0% {
-    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
-    transform: rotate(0deg);
-  }
-  50% {
-    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5), 0px 0px 80px 0px rgba(255, 0, 128, 0.5), 0px 0px 100px 0px rgba(255, 0, 0, 0.5);
-  }
-  100% {
-    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
-  }
-}
-
 
 .item .image {
 overflow: hidden;
