@@ -30,7 +30,6 @@ h2, h3, h4, h5 {
 .item {
   background-color: rgba(255, 255, 255, 0.1);
   width: 750px;
-  animation: glow 2s ease-in-out infinite;
 }
 
 .item .image {
