@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"; 
+body {
+  background-image: url('https://xatimg.com/image/FNW7adLCODf0.gif');
+  background-color:rgba(0,0,0,0.10);
+  font-size:1em;
+  font-family: 'Lora', serif;
+  background-size: cover;
+}
+section {width:100%; height:500px; padding:5% 0px;}
+a, a:hover {text-decoration:none;}
+.item {margin:0px auto;}
+h2, h3, h4, h5 {margin:0px;}
+
+
+
+/* ---- UI Style ----- */
+.item {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 1000px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
+    transform: rotate(0deg);
+  }
+  50% {
+    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5), 0px 0px 80px 0px rgba(255, 0, 128, 0.5), 0px 0px 100px 0px rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0px 0px 20px 0px rgba(255, 0, 0, 0.5), 0px 0px 40px 0px rgba(255, 0, 128, 0.5), 0px 0px 60px 0px rgba(255, 0, 0, 0.5);
+  }
+}
+
+
+.item .image {
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+.item .image img {
+width: 300px;
+box-align: center;
+ margin: 50px auto 0 auto;
+}
+
+.item .text {padding:2em; text-align:center;}
+.item .text figcaption {position:relative; z-index:1; }
+.item .text a {color:rgba(255,255,255,0.70);}
+.item .text p {
+  color:rgbaa(255,255,255,0.70); 
+  line-height:22px; 
+  font-weight:300;
+  font-size:20px;
+}
+.item .text .fa {
+  font-size:16px;
+  width:15px;
+  height:15px;
+  padding:13px;
+  border:solid 1px rgba(0,0,0,0.8);
+  border-radius:50%;
+}
+
+/* ---- Responsive Code ---- */
+@media (max-width: 768px) {
+  .item {width:100%;}
+}
+
+/* ---- UI Style Ent ----- */
